@@ -1,0 +1,13 @@
+# Files the tool writes next to itself - may contain tenant IDs, client IDs and analyst activity
+m365_profiles.json
+m365_activity_log.csv
+
+# Downloaded audit data - never commit client logs
+output_m365_audit/
+*.meta.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
