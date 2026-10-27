@@ -1,2 +1,1 @@
-# m365-audit-log-explorer
-Python GUI tool for SOC analysts to search, browse and export Microsoft 365 unified audit logs (Exchange, SharePoint, OneDrive, Entra ID, Teams) for investigations and threat hunting.
+M365 Audit Log Explorer is a desktop GUI tool that helps SOC analysts investigate activity across a Microsoft 365 tenant without writing scripts or using the slow Purview portal. Analysts can filter audit events by date range, user, workload and operation (for example mailbox access, file downloads, sign-ins, inbox rule changes, and admin role changes), view the results in a table, and export them to CSV for reporting or SIEM ingestion. Credentials are entered at runtime and are never stored.
